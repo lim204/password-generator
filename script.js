@@ -18,7 +18,7 @@ function writePassword() {
     var passwordText = document.querySelector("#password");
     passwordText.value = generatePassword();
   } else {
-    alert("Please pick at leat one option of characters");
+    alert("Please pick at least one option of characters");
   }
 }
 
