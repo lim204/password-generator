@@ -11,8 +11,9 @@ This challenge was to create generate a randowm password based on the criteria b
 * When all prompts are answered Then a password is generated that matches the selected criteria
 * When the password is generated then the password is either displayed written to the page
 
-* screenshot
+## screenshot
+![screencap](https://user-images.githubusercontent.com/125234173/224615669-aeff39ce-31db-4486-930a-6831d22e5036.png)
 
-* deployed link
+## Deployed link
 
 Repository contains a quality README file with description, screenshot, and link to deployed application.
