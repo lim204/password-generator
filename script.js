@@ -38,7 +38,7 @@ function getPrompts(){
   
   choiceArr = [];
   
-  lengthOfPassword = parseInt(prompt("Please choose password length between 8 to 128 Characters"));
+  lengthOfPassword = parseInt(prompt("Please choose a password length between 8 to 128 Characters"));
   
   if (isNaN(lengthOfPassword) || lengthOfPassword < 8 || lengthOfPassword > 128){
     alert("Password length must be 8 to 128 characters");
