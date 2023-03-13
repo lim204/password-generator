@@ -15,5 +15,6 @@ This challenge was to create generate a randowm password based on the criteria b
 ![screencap](https://user-images.githubusercontent.com/125234173/224615669-aeff39ce-31db-4486-930a-6831d22e5036.png)
 
 ## Deployed link
+[deployed link](https://lim204.github.io/password-generator/)
 
 Repository contains a quality README file with description, screenshot, and link to deployed application.
