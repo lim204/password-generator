@@ -12,8 +12,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input 
 function writePassword() {
-  var isValidPrompts = getPrompts();
-  console.log (isValidPrompts);
+  var isValidPrompts = gPrompts();
   if (isValidPrompts){ 
     var passwordText = document.querySelector("#password");
     passwordText.value = generatePassword();
@@ -26,14 +25,13 @@ function generatePassword() {
   var password = "";
   for (var i = 0; i<lengthOfPassword;i++){
     var randomIdx = Math.floor(Math.random()* choiceArr.length);
-    console.log (randomIdx);
     password = password + choiceArr[randomIdx];
   }
   return password;
 }
 
-// generate passwords based on prompt new section added
-function getPrompts(){
+// Prompts to generate password
+function gPrompts(){
   var isValidCharTypeChoice = false;
   
   choiceArr = [];
